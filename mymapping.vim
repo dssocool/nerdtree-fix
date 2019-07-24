@@ -5,6 +5,7 @@ call NERDTreeAddKeyMap({
   \ 'quickhelpText': 'open node' })
 
 
+
 " FUNCTION: s:openInNewTab(target) {{{1
 function! OpenInNewTab(node)
   if a:node.path.isDirectory
